@@ -123,7 +123,7 @@ model.save(MODEL_NAME)
 
 
 #TESTING
-ax=train_data[10][0]
+ax=test_data[10][0]
 ax.shape
 y=ax.reshape(1,150,150,1)
 zzz=Image.fromarray(ax)
