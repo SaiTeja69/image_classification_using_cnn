@@ -14,6 +14,7 @@ num_test_imgs = 187
 num_classes = 3
 img_px = 22500  
 IMG_SIZE=150
+LR = 1e-3
 x = 'training_data\\images'
 y = 'test_data\\images'
 TRAIN_DIR=os.path.join(os.getcwd(),x)
